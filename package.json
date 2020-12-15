@@ -12,7 +12,7 @@
   "author": "ThoughtWorks",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thoughtworks/build-your-own-radar"
+    "url": "https://github.com/fchiang15/testRadar"
   },
   "keywords": [
     "tech-radar"
