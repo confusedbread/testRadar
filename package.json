@@ -7,9 +7,7 @@
     "test": "standard --fix && istanbul cover jasmine",
     "test:lint": "npx standard",
     "dev": "webpack-dev-server --mode development --inline",
-    "build": "webpack --mode production",
-    "end_to_end_test": "node_modules/.bin/cypress run --env host=$TEST_URL",
-    "start": "node_modules/.bin/cypress open --env host=$TEST_URL"
+    "build": "webpack --mode production"
   },
   "author": "ThoughtWorks",
   "repository": {
@@ -26,7 +24,6 @@
     "babel-preset-env": "^1.7.0",
     "css-loader": "^3.2.1",
     "cssnano": "^4.1.7",
-    "cypress": "^3.7.0",
     "dotenv": "^8.2.0",
     "expose-loader": "^0.7.5",
     "file-loader": "^5.0.2",
@@ -66,7 +63,6 @@
   },
   "standard": {
     "globals": [
-      "Cypress",
       "cy",
       "XMLHttpRequest"
     ],
